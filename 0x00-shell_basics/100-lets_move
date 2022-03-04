@@ -1,3 +1,2 @@
 #!/bin/bash
-ln -sd /bin/ls __ls__
 mv [[:upper:]]* /tmp/u
