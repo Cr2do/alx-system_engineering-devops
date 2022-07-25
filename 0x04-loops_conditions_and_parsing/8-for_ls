@@ -1,3 +1,6 @@
 #!/usr/bin/env bash
-# This script is displaying "Best School" 10 times
-ls --format=long
+# Bash script that displays content
+for search in *
+do
+	echo "$search" | cut -d "-" -f 2
+	done
